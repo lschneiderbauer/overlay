@@ -11,7 +11,7 @@ RUBY_FAKEGEM_TASK_DOC=""
 inherit ruby-fakegem
 
 DESCRIPTION="A ruby project initializer solution"
-HOMEPAGE=""
+HOMEPAGE="https://github.com/vootey/rpi"
 
 GITHUB_USER="vootey"
 SRC_URI="https://github.com/${GITHUB_USER}/${PN}/tarball/r${PV} -> ${P}.tgz"
@@ -20,8 +20,6 @@ RUBY_S="${GITHUB_USER}-${PN}-*"
 LICENSE="GPL-2"
 SLOT="0"
 KEYWORDS="~amd64"
-
-#IUSE="${IUSE} gnuplot"
 
 RDEPEND="${RDEPEND} >=dev-ruby/commander-4.1.1"
 
