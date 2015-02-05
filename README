@@ -6,7 +6,7 @@ This is my own Gentoo overlay.
 One way to make use of the overlay is via 'layman' [1].
 - Copy overlay.xml into /etc/layman/overlays/
 - Uncomment the 'overlay_defs : /etc/layman/overlays' line in /etc/layman/layman.cfg
-- Run 'layman -f; layman -a vooteys'
+- Run 'layman -f; layman -a vooteys-overlay'
 After executing these steps the overlay is ready to use.
 More information about overlays and/or layman can be found here [2] and here [3].
 

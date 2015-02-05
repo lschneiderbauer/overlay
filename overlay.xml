@@ -2,7 +2,7 @@
 <!DOCTYPE repositories SYSTEM "/dtd/repositories.dtd">
 <repositories xmlns="" version="1.0">
 <repo quality="experimental" status="unofficial">
-	<name>vooteys</name>
+	<name>vooteys-overlay</name>
 	<description>vooteys private overlay</description>
 	<homepage>https://github.com/vootey/overlay</homepage>
 	<owner type="person">
